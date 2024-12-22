@@ -1,0 +1,47 @@
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Josefin+Sans:ital,wght@0,100..700;1,100..700&display=swap');
+
+
+:root {
+    --jet-black: rgb(24, 24, 27)
+}
+
+* {
+    background-color: rgb(230, 224, 224);
+    font-family: "Josefin Sans", sans-serif;
+
+}
+
+.header-section {
+    margin: 5vh 2.5vw;
+    padding: 0 10%;
+    display: flex;
+    justify-content: center;
+    font-family: "Abril Fatface", serif;
+    font-size: 200%;
+}
+
+.hero-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0 12vw;
+}
+
+.hero-picture {
+    width: 100%;
+    height: 100%;
+    margin-left: 5%;
+    max-width: 25%;
+    max-height: 25%;
+}
+
+.button { /* designan mo to to be an actual div instead of text background wrap in the future */
+    text-decoration: none;
+    flex-direction: column;
+    background-color: rgb(168, 16, 16);
+    color: white;
+    padding: 10px;
+    border-radius: 5px;
+    
+}
+
